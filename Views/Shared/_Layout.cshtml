@@ -16,11 +16,12 @@
     <header>
         <nav class="navbarr">
       <div><i class="fa-solid fa-mask"></i></div>
+      
       <ul>
         <li>Comics</li>
         <li>Movies</li>
         <li>Podcasts</li>
-        
+        <button class="menu-bar active" onclick="toggleMenu()">☰</button>
       </ul>
     </nav>
     </header>
@@ -55,6 +56,7 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="https://kit.fontawesome.com/6473111d61.js" crossorigin="anonymous"></script>
+    <script src="site.js" defer></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

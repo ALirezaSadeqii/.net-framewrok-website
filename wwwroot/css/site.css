@@ -4,6 +4,15 @@
 }
 .fa-solid {
   font-size: 30px;
+  cursor: pointer;
+}
+.fa-solid:hover {
+  transform: scale(1.2);
+  color: goldenrod;
+  transition: 0.5s;
+}
+.active {
+  display: none;
 }
 .header {
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="590" viewBox="0 0 1920 590" fill="none"><path d="M0 0H1920V410L0 590V0Z" fill="url(%23paint0_linear_276_3030)"/><defs><linearGradient id="paint0_linear_276_3030" x1="182.5" y1="-197.143" x2="449.482" y2="661.97" gradientUnits="userSpaceOnUse"><stop stop-color="%230A74DA"/><stop offset="0.5" stop-color="%23000000"/><stop offset="1" stop-color="%238B0000"/></linearGradient></defs></svg>');
@@ -17,14 +26,20 @@
   height: 590px;
   z-index: -5;
 }
+.navbarr:hover {
+  opacity: 100%;
+  transition: 0.6s;
+}
 .navbarr {
   display: flex;
   justify-content: space-between;
   padding: 30px;
   background-color: antiquewhite;
+  opacity: 70%;
 }
 .navbarr ul {
   display: flex;
+  flex-direction: row;
   gap: 20px;
   margin-bottom: 0;
 }
@@ -101,6 +116,7 @@ p {
   align-content: center;
   gap: 60px;
   margin-top: 70px;
+  margin-bottom: 70px;
 }
 .vid {
   background-color: #8b0000;
@@ -183,5 +199,54 @@ p {
   }
   .footer a i {
     margin: 0% 3%;
+  }
+}
+
+@media (max-width: 1025px) {
+  .container3 {
+    display: grid;
+    grid-template-columns: repeat(2, 47%);
+    gap: 90px;
+  }
+}
+@media (max-width: 1000px) {
+  .container2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .infoImg {
+    display: flex;
+    flex-basis: auto;
+    width: 95%;
+    margin-top: 40px;
+  }
+
+  .info {
+    flex-basis: 40%;
+    text-align: center;
+  }
+}
+@media (max-width: 665px) {
+  .container3 {
+    grid-template-columns: repeat(1, 95%);
+  }
+}
+@media (max-width: 410) {
+  .navbarr ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media (max-width: 345px) {
+  .container3 {
+    grid-template-columns: repeat(1, 13%);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .vid {
+    padding: 0;
   }
 }
