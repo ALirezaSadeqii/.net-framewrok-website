@@ -8,16 +8,19 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/landing_project.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="_Layout.cshtml.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+
 </head>
 <body>
     <header>
         <nav class="navbarr">
-      <div><span>logo</span></div>
+      <div><i class="fa-solid fa-mask"></i></div>
       <ul>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
+        <li>Comics</li>
+        <li>Movies</li>
+        <li>Podcasts</li>
+        
       </ul>
     </nav>
     </header>
@@ -27,14 +30,31 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - landing_project - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+    <footer>
+<div class="footer">
+<div class="row">
+<a href="#"><i class="fa fa-youtube"></i></a>
+</div>
+
+<div class="row">
+<ul>
+<li><a href="#">Comics</a></li>
+<li><a href="#">Movies</a></li>
+<li><a href="#">Podcasts</a></li>
+
+</ul>
+</div>
+
+<div class="row">
+- All rights reserved -
+</div>
+</div>
+</footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://kit.fontawesome.com/6473111d61.js" crossorigin="anonymous"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
