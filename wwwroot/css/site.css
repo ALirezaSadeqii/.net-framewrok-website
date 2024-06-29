@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbarr {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: antiquewhite;
+}
+.navbarr ul {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 0;
+}
+.navbarr ul li {
+  display: inline;
+  font-size: 18px;
+}
+.headerImg {
+  background-image: url("../img/tim-bogdanov-4uojMEdcwI8-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 13px;
+  margin-top: 50px;
+  filter: drop-shadow(2px 4px 6px black);
+}
+.headerButton {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.btnHeader {
+  width: 100px;
+  background-color: burlywood;
+  border-radius: 23px;
+  /* padding: 19px; */
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 9px;
+  font-size: 20px;
+}
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 130px;
+}
+.infoImg {
+  background-image: url("../img/a-boy-runs-toward-the-viewer-with-a-kite-as-another-tries-to-catch-it-on-the-sandy-beach-1903051.jpg");
+  height: 600px;
+  width: 31%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex-basis: 45%;
+}
+
+.info {
+  flex-basis: 40%;
+}
+.cards-header {
+  margin-top: 90px;
+}
+.cards-header h1,
+p {
+  text-align: center;
+}

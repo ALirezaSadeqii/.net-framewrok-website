@@ -1,0 +1,30 @@
+X:\landing project\bin\Debug\net8.0\appsettings.Development.json
+X:\landing project\bin\Debug\net8.0\appsettings.json
+X:\landing project\bin\Debug\net8.0\landing project.staticwebassets.runtime.json
+X:\landing project\bin\Debug\net8.0\landing project.exe
+X:\landing project\bin\Debug\net8.0\landing project.deps.json
+X:\landing project\bin\Debug\net8.0\landing project.runtimeconfig.json
+X:\landing project\bin\Debug\net8.0\landing project.dll
+X:\landing project\bin\Debug\net8.0\landing project.pdb
+X:\landing project\obj\Debug\net8.0\landing project.GeneratedMSBuildEditorConfig.editorconfig
+X:\landing project\obj\Debug\net8.0\landing project.AssemblyInfoInputs.cache
+X:\landing project\obj\Debug\net8.0\landing project.AssemblyInfo.cs
+X:\landing project\obj\Debug\net8.0\landing project.csproj.CoreCompileInputs.cache
+X:\landing project\obj\Debug\net8.0\landing project.MvcApplicationPartsAssemblyInfo.cache
+X:\landing project\obj\Debug\net8.0\landing project.RazorAssemblyInfo.cache
+X:\landing project\obj\Debug\net8.0\landing project.RazorAssemblyInfo.cs
+X:\landing project\obj\Debug\net8.0\staticwebassets.build.json
+X:\landing project\obj\Debug\net8.0\staticwebassets.development.json
+X:\landing project\obj\Debug\net8.0\staticwebassets\msbuild.landing project.Microsoft.AspNetCore.StaticWebAssets.props
+X:\landing project\obj\Debug\net8.0\staticwebassets\msbuild.build.landing project.props
+X:\landing project\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.landing project.props
+X:\landing project\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.landing project.props
+X:\landing project\obj\Debug\net8.0\staticwebassets.pack.json
+X:\landing project\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+X:\landing project\obj\Debug\net8.0\scopedcss\bundle\landing project.styles.css
+X:\landing project\obj\Debug\net8.0\scopedcss\projectbundle\landing project.bundle.scp.css
+X:\landing project\obj\Debug\net8.0\landing project.dll
+X:\landing project\obj\Debug\net8.0\refint\landing project.dll
+X:\landing project\obj\Debug\net8.0\landing project.pdb
+X:\landing project\obj\Debug\net8.0\landing project.genruntimeconfig.cache
+X:\landing project\obj\Debug\net8.0\ref\landing project.dll
