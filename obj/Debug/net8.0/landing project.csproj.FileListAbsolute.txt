@@ -28,3 +28,4 @@ X:\landing project\obj\Debug\net8.0\refint\landing project.dll
 X:\landing project\obj\Debug\net8.0\landing project.pdb
 X:\landing project\obj\Debug\net8.0\landing project.genruntimeconfig.cache
 X:\landing project\obj\Debug\net8.0\ref\landing project.dll
+X:\landing project\obj\Debug\net8.0\landing project.sourcelink.json
