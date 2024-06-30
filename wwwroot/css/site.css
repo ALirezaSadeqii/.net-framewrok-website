@@ -231,11 +231,32 @@ p {
     grid-template-columns: repeat(1, 95%);
   }
 }
-@media (max-width: 410) {
+@media (max-width: 510px) {
+  .navbarr {
+    display: block;
+    width: 100%;
+  }
+  .fa-solid {
+    display: block;
+  }
   .navbarr ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0;
+  }
+  .menu-bar {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 30px;
+  }
+  .btn {
+    display: none;
+    transition: 0.5s;
   }
 }
 @media (max-width: 345px) {
