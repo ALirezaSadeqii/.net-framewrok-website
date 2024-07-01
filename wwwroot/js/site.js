@@ -7,4 +7,5 @@ const btn = document.querySelector(".btn");
 const ull = document.querySelector(".ull");
 menu.addEventListener("click", function () {
   ull.classList.toggle("btn");
+  ull.classList.remove("aactive");
 });

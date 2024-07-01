@@ -256,7 +256,13 @@ p {
   }
   .btn {
     display: none;
-    transition: 0.5s;
+    transition: 1s;
+  }
+  .aactive {
+    display: none;
+  }
+  .ull {
+    transition: max-height 1s ease;
   }
 }
 @media (max-width: 345px) {
