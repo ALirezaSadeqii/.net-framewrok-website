@@ -187,6 +187,13 @@ p {
   text-align: center;
   display: block;
 }
+.nav__link {
+  text-decoration: none;
+  color: #000;
+}
+.nav__link:hover {
+  color: #fff;
+}
 @media (max-width: 720px) {
   .footer .row {
     text-align: left;
